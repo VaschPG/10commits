@@ -27,7 +27,7 @@ public class MonServlet extends HttpServlet {
         out.println("<html>");
         out.println("<head><title>Vue 2 - Version 2</title></head>");
         out.println("<body>");
-        out.println("<h1>Vue 2</h1>");
+        out.println("<h1>Belle vue 2</h1>");
         out.println("</body></html>");
     }
 }
