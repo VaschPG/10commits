@@ -17,7 +17,6 @@ public class MonServlet extends HttpServlet {
         out.println("<head><title>Vue 1</title></head>");
         out.println("<body>");
         out.println("<h1>C'est la Vue 1</h1>");
-        out.println("<p>C'est quand on fait le doGet</p>");
         out.println("</body></html>");
     }
 
@@ -29,7 +28,6 @@ public class MonServlet extends HttpServlet {
         out.println("<head><title>Vue 2</title></head>");
         out.println("<body>");
         out.println("<h1>Vue 2</h1>");
-        out.println("<p>C'est quand on fait le doPost</p>");
         out.println("</body></html>");
     }
 }
