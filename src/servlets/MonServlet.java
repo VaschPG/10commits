@@ -14,7 +14,7 @@ public class MonServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html>");
-        out.println("<head><title>New new vue 1 </title></head>");
+        out.println("<head><title>Vue 1 </title></head>");
         out.println("<body>");
         out.println("<h1>C'est la Vue 1</h1>");
         out.println("</body></html>");
@@ -25,7 +25,7 @@ public class MonServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html>");
-        out.println("<head><title>Vue 2</title></head>");
+        out.println("<head><title>Vue 2 - Version 2</title></head>");
         out.println("<body>");
         out.println("<h1>Vue 2</h1>");
         out.println("</body></html>");
